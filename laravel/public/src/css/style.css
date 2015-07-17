@@ -1,0 +1,233 @@
+/**{
+	background-color: #b6b6b6;
+}*/
+body{
+    width: 100%;
+	background: url("../media/fondo/1.jpg");
+	background-size: cover;
+	-webkit-animation-name:prueba;
+	-webkit-animation-duration:60s;
+	animation-name:prueba;
+	animation-duration:60s;
+	-webkit-animation-iteration-count: 3;
+}
+
+#cf{
+	margin: auto;
+	height: auto;
+	min-height:100%;
+}
+
+#cf:after{
+	width: 100%;
+	height:100px;
+	clear:both;
+}
+.p_index{
+
+	font-size: 20px;
+}
+.slider{
+	background-color: white;
+}
+
+
+
+
+footer{
+  color: white;
+  background: #333333;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  text-align: center;
+  font-size: 0.8em;
+  padding-top: 6px;
+  height: 100px;
+  width: 100%;
+  
+
+}
+.Flexible-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.Flexible-container iframe,   
+.Flexible-container object,  
+.Flexible-container embed {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    width: 90%;
+    height: 90%;
+
+}
+#least{
+	min-height: 100%;
+	clear:both;
+
+}
+
+.line{
+color:#e6e6e6;
+}
+.galeria{
+
+	margin-top: 20px;
+}
+ul li a:hover{
+
+	background-color:  #7E8F7C!important;
+	-webkit-transition: 1s;
+}
+
+.Ptittle{
+	text-align: center;
+	font-family: 'Stalemate', cursive;
+	color:#333333;
+}
+.information{
+
+font-family: 'Open Sans Condensed', sans-serif;
+font-size: 1.2em; 
+color:#1A1A1A;	
+}
+
+.informationTittle{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: bold;
+	font-size: 3em;
+	color:#515151;
+}
+
+.informationFooter{
+	margin:0px;
+}
+.PestanaActual{
+
+	background-color:  #7E8F7C!important;
+}
+.justify-text{
+	text-align: justify;
+	
+	
+
+}
+
+.imag-Quienes-Somos{
+
+	border: solid 2px white;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	max-width: 600px;
+	margin-left: 10px;
+
+}
+
+.floatP{
+	float: right;
+}
+
+
+@-webkit-keyframes prueba{
+	16%{background: url("../media/fondo/1.jpg"); }
+	32%{background: url("../media/fondo/2.jpg");}
+	48%{background: url("../media/fondo/3.jpg");}
+	64%{background: url("../media/fondo/4.jpg");}
+	80%{background: url("../media/fondo/5.jpg");}
+	100%{background: url("../media/fondo/6.jpg");}
+
+}
+@keyframes prueba{
+	16%{background: url("../media/fondo/1.jpg"); }
+	32%{background: url("../media/fondo/2.jpg");}
+	48%{background: url("../media/fondo/3.jpg");}
+	64%{background: url("../media/fondo/4.jpg");}
+	80%{background: url("../media/fondo/5.jpg");}
+	100%{background: url("../media/fondo/6.jpg");}
+
+}
+
+.sombra{
+-webkit-box-shadow: 7px 9px 59px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 7px 9px 59px -1px rgba(0,0,0,0.75);
+box-shadow: 7px 9px 59px -1px rgba(0,0,0,0.75);
+  border: 1px solid silver;
+
+}
+
+#logo{
+
+    position: relative;
+    top: 30px;
+	vertical-align: middle
+}
+
+#formulario{
+	width: 50%;
+	position: absolute;
+	top:100px;
+	left:100px;
+}
+ 
+input.form-control{
+	margin: 0 0 0rem 0;
+}
+textarea.form-control{
+    margin: 0 0 0rem 0;
+
+}
+
+.button{
+	margin-top: 15px; 	
+}
+img.centro{
+
+	position:absolute;
+    top:200px;
+    
+}
+
+
+
+ @media only screen and (max-width: 1024px){
+	img.centro{
+
+		position: absolute;
+		left:7%;
+	}
+}
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1){ 
+  
+	img.centro{
+
+		position: absolute;
+		left :8%;
+	}
+
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1025px),
+only screen and (min--moz-device-pixel-ratio: 2) and (min-width: 1025px),
+only screen and (-o-min-device-pixel-ratio: 2/1) and (min-width: 1025px){ 
+  
+	img.centro{
+
+		position: absolute;
+		left:0%;
+	}
+
+}
+
+ 	
+ 
+
+
